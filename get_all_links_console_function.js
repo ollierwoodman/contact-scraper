@@ -5,7 +5,7 @@ function unique(a) {
   });
 }
 
-function scrapeLinks(startsWith="", prefix="") {
+function scrapeLinks(startsWith="", prefix="", separator=" ") {
   // Get all anchor elements on the webpage
   const anchors = document.getElementsByTagName('a');
   
@@ -21,5 +21,5 @@ function scrapeLinks(startsWith="", prefix="") {
       }
   }
 
-  return unique(links);
+  return unique(links).join(separator);
 }
