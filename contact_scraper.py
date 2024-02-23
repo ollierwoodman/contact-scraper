@@ -5,7 +5,6 @@ import csv
 import re
 import json
 from urllib.parse import urlparse, unquote
-import sys
 
 def is_valid_url(string):
   try:
