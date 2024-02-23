@@ -1,5 +1,5 @@
 in.json
 /out/*
 /in/*
-!/out/out.txt.example
+!/out/out.csv.example
 !/in/in.json.example
